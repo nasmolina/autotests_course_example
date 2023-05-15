@@ -4,11 +4,10 @@
 
 from statistics import mean
 def get_list_info(lst):
-    result = lst[:]
-    min_elem = min(result)
-    max_elem = max(result)
-    sum_list = sum(result)
-    average = round(sum(result) / len(result), 2)
+    min_elem = min(lst)
+    max_elem = max(lst)
+    sum_list = sum(lst)
+    average = round(sum_list / len(lst), 2)
     return min_elem, max_elem, sum_list, average
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
